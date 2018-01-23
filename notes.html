@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Notes</title>
+  </head>
+  <body>
+    <h1>My notes</h1>
+    <h2>What is HTML?</h2>
+    <p>HTML or <b> Hyper Text Mark up Language</b>
+      are the heart of the web, <br>the web is made of of
+      html documents that can do a number of things
+    </p>
+    <p>
+      HTML is made up of:
+      <ol>
+        <li>Text Content - what you see</li>
+        <li>Mark up - what it looks like</li>
+        <li>References to other documents - e.g. images & vidoe</li>
+        <li>Links to other pages</li>
+      </ol>
+    </p>
+    <h2>How do we make text look different in the browser?</h2>
+    <p>We make text look different by using markup. Markup is made
+      up of tags e.g. <name> content</name>.</p>
+    <p>The tag itself is made up of a less than and more then arrow with<br>
+      the tag name inbetweeen this is called an opening tag. A closing<br>
+      tag is made up of a less then sign followed by a forward slash,<br>
+      the tag name and a more the sign this is called a closing tag. The content<br>
+      lies content that you wish to appear in the browser is housed between<br>
+      the opening and closing tag.
+    </p>
+    <h2>What does a 'b' tag do</h2>
+    <p>The 'b' tag has an opening and closing tag. Any thing that appears<br>
+      inside this tag will be bold</p>
+    <p>An example of this would be:<br>
+      I am going to learn to <b>love</b> html
+    </p>
+
+    <h2>What does a 'em' tag do?</h2>
+    <p>The em tag is used to create emphasis and it make things italic,<br>
+      it has the same structure as the bold tag.</p>
+    <p>An example of this would be:<br>
+      I am going to <em>learn</em> to <b>love</b> html</p>
+
+    <h2>Computers Are Stupid</h2>
+    <p>Computers interpret language literally therefore computers are<br>
+      sensitive to typos. Small mistakes can lead to huge problems when<br>
+      given to a "stupid" computer.
+    </p>
+
+    <h2>Missing End Tag</h2>
+      <p>When you forget to close a tag for example the em tag. The awsner<br>
+        is that everything after the opening
+      em tag is italicised </p>
+
+    <h2>Making links<h2>
+      <h3>HTML Attributes</h3>
+      <p>With attributes we still have an opening tag name and a closing<br>
+        tag as before but we have a new thing called an attribute in the<br>
+        opneing tag. Each attribute has a name and a value, attributes always<br>
+        equal a value. Also tags can have multiple attributes</p>
+
+    <p>An example of a tag that uses and attribute is the anchor tag or 'a'<br>
+      tag. An example of an a tag with be a link. This is made up of the<br>
+      opening 'a' tag inside of which is the attribute href= followed by a<br>
+      value which will be a url followed by the content and the closing 'a' tag</p>
+
+    <p>An example of this would be:<br>
+      <a href="https://youtu.be/dQw4w9WgXcQ">This is an example of an 'a' tag<br>
+         with a href attribute</a>
+    </p>
+
+    <h2>Adding images<h2>
+    <h3>The image tag</h3>
+    <p>The image tag is for including images and has an attribute called src<br>
+      meaning source. This directs to where the image is house online </p>
+    <p>There is another attribute called 'alt' which stand for alternate and<br>
+      this is the text that gets displayed when the image doen't load. This is<br>
+      required so that the user know what the image is of if the link is broken<br>
+      and the image does not display. It's also used for blind people.</p>
+    <p><b>IMPORTANT:</b> The 'img' tag does not have a cloing tag this is<br>
+      called a void tag. A void tag is a tag that has no content. Because it <br>
+      has not conetnet it does not need a closing tag.</p>
+  <p>An example the 'img' tag:<br>
+    <img src="https://media.giphy.com/media/3o752gZdDHjObx309W/giphy.gif" alt="Woman opening a bottel of wine with here teeth">
+    <p>Images <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/202770-200.png" alt="rabbit">just appear inline with text because the 'img'tag is an inline element</p>
+    <h2>White space</h2>
+    <p>In html new lines tabs, spaces all turn into a single space.<br>
+      To for tags to multiple lines we can use another tag call the 'br' tag. <br>
+      It is also a void tag and stands for break and you put this after any <br>
+      lines you want to appear on multiple lines</p>
+      <p>An example of the 'br' tag:<br>
+      Don't break me<br> please</p>
+      <p>You cab have <br>multiple 'br' tags or <br>line breaks <br>in a line</p>
+      <p>Another way of creating line breaks is to use the 'p' tag of paragraph<br>
+        tag and is not a void tag it has a closing tag because the 'p' tag has content.<br>
+        Content in an opening and closing 'p' tag will render as a paragraph</p>
+
+      <h2>Inline vs Block Elements </h2>
+      <p>The 'br' tag is an inline tag a 'p' tag is a block tag<br>
+      What this means is that the br tag for example ends a line<br>
+      The 'p' tag works differently the 'p' tag actually makes an invisible<br>
+      box, this can have height and width where as inline elements are just<br>
+      text. inline elements are 'b' 'em' and even 'img' tags. A block element <br>
+      Woudl be the 'p' tag.</p>
+
+        <h2>Boxes and containers</h2>
+        <p>Span and Div are normal elements, both have content the only difference between<br>
+        Them is span is an inline element and Div is a Block element. With both you can add<br>
+        Styles to them to effect how there content is dispayed.</p>
+
+          <p>Example of a <span>'span</span> and a <div>'div'</div>.</p>
+
+          <h2>Document Structure</h2>
+          <h3>The Structure if a html Document</h3>
+          <ol>
+            <li>The DOCTYPE - Ths tells you what version of html is. </li>
+            <li>Openinng html tag and a closing html - this surround the rest of the Document</li>
+            <li>Head which has an opening and closing tag - This houses the meta data and other elements<br>
+            If you were to include JavaScript and Css this is where it woudl be housed.</li>
+            <li>The title tag - this is the title of the page, this is what appears in the top of your browser<br>
+            window.</li>
+            <li>The body tag - This contains the actaully contents of the document.</li>
+          </ol>
+
+
+  </body>
+
+</html>
