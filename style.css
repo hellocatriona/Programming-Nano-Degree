@@ -1,0 +1,163 @@
+body {
+	padding:20px 10px;
+	font-family: Helvetica;
+	max-width: 1000px;
+	margin: 0 auto;
+	font-size: 18px;
+	background-color: #f3f3f3;
+}
+
+
+header {
+	width: 1000px;
+	height: 110px;
+	/*position: fixed;*/ 
+	top: 0;
+	border-bottom: 1px solid #cccccc;
+	background-color: #FFFF00;
+	display: -webkit-flex; /* to support Safari*/
+	display: flex; /* or inline flex*/
+}
+
+
+.circle {
+	 width: 110px;
+	 height: 110px;
+	 background-color: #f3f3f3; 
+}
+
+
+.description {
+	max-width: 705px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left:0px;
+	font-size: 20px;
+	font-family: Helvetica;
+	color:#7C8B88;
+}
+
+
+.toc {
+	background-color: #ffffff; 
+	color: #0b24fb;
+	padding: 30px;
+	margin-top: 60px;
+	border-radius: 6px;
+	border: 3px solid #111111;
+}
+
+.images {
+	max-width: 100%;
+	height: auto;
+	margin: 20px;
+}
+
+
+
+h1 {
+	text-align: center;
+	color: #0b24fb;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+
+.myname {
+	color: #0b24fb;
+	padding-top: 7px;
+	padding-left: 20px;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+
+h2 {
+	text-align: left;
+	color:  #0b24fb;
+	font-size: 28px;
+	line-height: 58px;
+	font-weight: 700;
+}
+
+
+h3 {
+	
+	color:#111111;
+}
+
+
+h4 {
+	text-align: left;
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 58px;
+}
+
+
+p {
+	margin: 10px 0;
+	color:#111111;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 200;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+
+li {
+	font-weight: 700;
+	line-height: 48px;
+	color: #0b24fb;
+}
+
+
+a {
+color: #111111;
+}
+
+
+.lesson {
+    background-image:url("img/tic-tac-toe.png");
+	color: #ffffff;
+	padding: 10px;
+	margin: 40px auto;
+	border: 3px solid #0b24fb;
+	border-radius: 6px;
+}
+
+.lessonheading {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #FFFF00;
+
+}
+
+.concept{
+	background-color: #ffffff;
+	padding: 40px;
+	margin: 40px;
+	border-radius: 6px;
+	border: 3px solid #f3f3f3;
+}
+
+.concept-desciption {
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#lesson {
+
+}
+
+footer {
+	padding: 0px 0px 0px 60px;
+	background-color:  #0b24fb;
+	bottom: 0;
+}
